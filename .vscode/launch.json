@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringBootPlusAdminApplication<admin>",
+            "request": "launch",
+            "mainClass": "io.geekidea.springbootplus.admin.SpringBootPlusAdminApplication",
+            "projectName": "admin"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringBootPlusApplication<bootstrap>",
+            "request": "launch",
+            "mainClass": "io.geekidea.springbootplus.SpringBootPlusApplication",
+            "projectName": "bootstrap"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PhoneUtil<framework>",
+            "request": "launch",
+            "mainClass": "io.geekidea.springbootplus.framework.util.PhoneUtil",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringBootPlusGenerator<generator>",
+            "request": "launch",
+            "mainClass": "io.geekidea.springbootplus.generator.SpringBootPlusGenerator",
+            "projectName": "generator"
+        }
+    ]
+}
