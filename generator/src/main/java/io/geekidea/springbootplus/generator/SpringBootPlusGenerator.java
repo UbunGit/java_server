@@ -45,8 +45,8 @@ public class SpringBootPlusGenerator {
 
         // 设置基本信息
         generatorProperties
-                .setMavenModuleName("blog")
-                .setParentPackage("com.blog")
+                .setMavenModuleName("example")
+                .setParentPackage("com.example")
                 .setModuleName("blog")
                 .setAuthor("ubungit")
                 .setFileOverride(true);

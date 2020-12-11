@@ -1,4 +1,4 @@
-package com.blog.blog.param;
+package com.example.blog.param;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;

@@ -1,9 +1,9 @@
-package com.blog.blog.controller;
+package com.example.blog.controller;
 
-import com.blog.blog.entity.Blog;
-import com.blog.blog.service.BlogService;
+import com.example.blog.entity.Blog;
+import com.example.blog.service.BlogService;
 import lombok.extern.slf4j.Slf4j;
-import com.blog.blog.param.BlogPageParam;
+import com.example.blog.param.BlogPageParam;
 import io.geekidea.springbootplus.framework.common.controller.BaseController;
 import io.geekidea.springbootplus.framework.common.api.ApiResult;
 import io.geekidea.springbootplus.framework.core.pagination.Paging;

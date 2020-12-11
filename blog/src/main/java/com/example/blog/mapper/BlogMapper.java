@@ -1,8 +1,8 @@
-package com.blog.blog.mapper;
+package com.example.blog.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.blog.blog.entity.Blog;
-import com.blog.blog.param.BlogPageParam;
+import com.example.blog.entity.Blog;
+import com.example.blog.param.BlogPageParam;
 
 import org.springframework.stereotype.Repository;
 

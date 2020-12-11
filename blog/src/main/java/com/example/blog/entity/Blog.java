@@ -1,4 +1,4 @@
-package com.blog.blog.entity;
+package com.example.blog.entity;
 
 import io.geekidea.springbootplus.framework.common.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.IdType;

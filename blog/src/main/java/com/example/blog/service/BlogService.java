@@ -1,7 +1,7 @@
-package com.blog.blog.service;
+package com.example.blog.service;
 
-import com.blog.blog.entity.Blog;
-import com.blog.blog.param.BlogPageParam;
+import com.example.blog.entity.Blog;
+import com.example.blog.param.BlogPageParam;
 import io.geekidea.springbootplus.framework.common.service.BaseService;
 import io.geekidea.springbootplus.framework.core.pagination.Paging;
 

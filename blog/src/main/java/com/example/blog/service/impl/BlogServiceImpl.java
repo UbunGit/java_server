@@ -1,9 +1,9 @@
-package com.blog.blog.service.impl;
+package com.example.blog.service.impl;
 
-import com.blog.blog.entity.Blog;
-import com.blog.blog.mapper.BlogMapper;
-import com.blog.blog.service.BlogService;
-import com.blog.blog.param.BlogPageParam;
+import com.example.blog.entity.Blog;
+import com.example.blog.mapper.BlogMapper;
+import com.example.blog.service.BlogService;
+import com.example.blog.param.BlogPageParam;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import io.geekidea.springbootplus.framework.common.service.impl.BaseServiceImpl;
 import io.geekidea.springbootplus.framework.core.pagination.Paging;
