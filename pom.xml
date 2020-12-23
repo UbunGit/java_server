@@ -92,12 +92,11 @@
         <module>bootstrap</module>
         <module>config</module>
         <module>distribution</module>
-        <module>example</module>
-        <module>blog</module>
         <module>framework</module>
         <module>generator</module>
         <module>scheduled</module>
         <module>system</module>
+ 
     </modules>
 
     <dependencyManagement>
@@ -315,11 +314,6 @@
             <dependency>
                 <groupId>io.geekidea.springbootplus</groupId>
                 <artifactId>example</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.geekidea.springbootplus</groupId>
-                <artifactId>blog</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
