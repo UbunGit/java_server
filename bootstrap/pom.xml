@@ -45,6 +45,10 @@
         </dependency>
         <dependency>
             <groupId>io.geekidea.springbootplus</groupId>
+            <artifactId>mall</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.geekidea.springbootplus</groupId>
             <artifactId>system</artifactId>
         </dependency>
         <dependency>
