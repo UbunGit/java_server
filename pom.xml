@@ -98,6 +98,7 @@
         <module>system</module>
         <module>example</module>
         <module>mall</module>
+        <module>user</module>
     </modules>
 
     <dependencyManagement>
@@ -320,6 +321,11 @@
             <dependency>
                 <groupId>io.geekidea.springbootplus</groupId>
                 <artifactId>mall</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.geekidea.springbootplus</groupId>
+                <artifactId>user</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

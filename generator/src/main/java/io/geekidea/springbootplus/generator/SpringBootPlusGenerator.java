@@ -45,14 +45,14 @@ public class SpringBootPlusGenerator {
 
         // 设置基本信息
         generatorProperties
-                .setMavenModuleName("example")
+                .setMavenModuleName("user")
                 .setParentPackage("com.example")
-                .setModuleName("blog")
+                .setModuleName("user")
                 .setAuthor("ubungit")
                 .setFileOverride(true);
 
         // 设置表信息
-        generatorProperties.addTable("blog","id");
+        generatorProperties.addTable("users","id");
         // 设置表前缀
         // generatorProperties.setTablePrefix(Arrays.asList("tb_"));
 
@@ -62,7 +62,7 @@ public class SpringBootPlusGenerator {
                 .setUsername("root")
                 .setPassword("root")
                 .setDriverName("com.mysql.jdbc.Driver")
-                .setUrl("jdbc:mysql://localhost:3306/share?useUnicode=true&characterEncoding=UTF-8&useSSL=false");
+                .setUrl("jdbc:mysql://localhost:3306/bang?useUnicode=true&characterEncoding=UTF-8&useSSL=false");
 
         // 生成配置
         generatorProperties.getGeneratorConfig()
