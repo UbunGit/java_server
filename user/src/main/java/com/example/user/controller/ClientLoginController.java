@@ -5,6 +5,7 @@ import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
 
 import com.example.user.param.ClientLoginParam;
+import com.example.user.param.ClientSignUpParam;
 import com.example.user.service.ClientUserLoginService;
 import com.example.user.vo.ClientLoginUserTokenVo;
 
@@ -44,4 +45,12 @@ public class ClientLoginController {
         response.setHeader(JwtTokenUtil.getTokenName(), clientLoginUserTokenVo.getToken());
         return ApiResult.ok(clientLoginUserTokenVo, "登录成功");
     }
+
+    @PostMapping("/signup")
+    @OperationLogIgnore
+    @ApiOperation(value = "客户端用户注册",notes = "客户端用户注册",response = ClientLoginUserTokenVo.class)
+    public ApiResult<Boolean> signup(@Validated @RequestBody ClientSignUpParam signUpParam, HttpServletResponse response) throws Exception {
+        return ApiResult.result(true);
+    }
+    
 }
