@@ -106,7 +106,6 @@ public class ShiroConfig {
         return jwtRealm;
     }
 
-
     @Bean
     public SessionStorageEvaluator sessionStorageEvaluator() {
         DefaultSessionStorageEvaluator sessionStorageEvaluator = new DefaultWebSessionStorageEvaluator();
@@ -158,7 +157,6 @@ public class ShiroConfig {
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainMap);
         return shiroFilterFactoryBean;
     }
-
 
     /**
      * 获取filter map

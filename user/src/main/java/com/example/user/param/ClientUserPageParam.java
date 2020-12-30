@@ -12,12 +12,12 @@ import io.geekidea.springbootplus.framework.core.pagination.BasePageOrderParam;
  * </pre>
  *
  * @author ubungit
- * @date 2020-12-29
+ * @date 2020-12-30
  */
 @Data
 @Accessors(chain = true)
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "客户端用户分页参数")
-public class UsersPageParam extends BasePageOrderParam {
+public class ClientUserPageParam extends BasePageOrderParam {
     private static final long serialVersionUID = 1L;
 }

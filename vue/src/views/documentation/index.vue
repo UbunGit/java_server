@@ -1,9 +1,7 @@
 <template>
   <div class="app-container documentation-container">
-    <a class="document-btn" target="_blank" href="https://springbootplus/admin">Documentation</a>
-    <a class="document-btn" target="_blank" href="https://github.com/geekidea/spring-boot-plus">Github Repository</a>
-    <a class="document-btn" target="_blank" href="http://47.105.159.10/api/swagger-ui.html">SwaggerUI</a>
-    <a class="document-btn" target="_blank" href="http://47.105.159.10/api">SpringBootAdmin</a>
+    <a class="document-btn" target="_blank" href="https://springboot.plus/">springbootplus</a>
+    <a class="document-btn" target="_blank" href="https://github.com/geekidea/spring-boot-plus">Github spring-boot-plus</a>
   </div>
 </template>
 

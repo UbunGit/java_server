@@ -184,6 +184,8 @@ spring-boot-plus:
     anon:
       # 排除登录登出
       - /login,/logout
+      # 排除客户端登录
+      - /clogin
       # 排除静态资源
       - /static/**,/templates/**
       # 排除Swagger

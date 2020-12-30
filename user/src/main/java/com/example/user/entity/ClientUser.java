@@ -19,13 +19,13 @@ import io.geekidea.springbootplus.framework.core.validator.groups.Update;
  * 客户端用户
  *
  * @author ubungit
- * @since 2020-12-29
+ * @since 2020-12-30
  */
 @Data
 @Accessors(chain = true)
 @EqualsAndHashCode(callSuper = true)
-@ApiModel(value = "Users对象")
-public class Users extends BaseEntity {
+@ApiModel(value = "ClientUser对象")
+public class ClientUser extends BaseEntity {
     private static final long serialVersionUID = 1L;
 
     @NotNull(message = "id不能为空", groups = {Update.class})

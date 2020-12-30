@@ -52,7 +52,7 @@ public class SpringBootPlusGenerator {
                 .setFileOverride(true);
 
         // 设置表信息
-        generatorProperties.addTable("users","id");
+        generatorProperties.addTable("client_user","id");
         // 设置表前缀
         // generatorProperties.setTablePrefix(Arrays.asList("tb_"));
 

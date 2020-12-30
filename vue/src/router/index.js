@@ -96,7 +96,7 @@ export const constantRoutes = [
     component: Layout,
     children: [
       {
-        path: 'http://47.105.159.10:8888/api/swagger-ui.html',
+        path: process.env.VUE_APP_BASE_API+'/swagger-ui.html',
         meta: { title: 'SwaggerUI', icon: 'link' }
       }
     ]
@@ -106,8 +106,8 @@ export const constantRoutes = [
     component: Layout,
     children: [
       {
-        path: 'http://47.105.159.10:8888/api/doc.html',
-        meta: { title: 'SwaggerUI', icon: 'link' }
+        path: process.env.VUE_APP_BASE_API+'/doc.html',
+        meta: { title: 'knife4j', icon: 'link' }
       }
     ]
   },
